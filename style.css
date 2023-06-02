@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.items-center{
+align-items: center;
+}
+header{
+    height: 100vh;
+    background: #1B3764;
+    padding: 0 150px;
+}
+nav{
+    padding: 20px 0;
+}
+.logo_icons{
+    gap: 20px;
+}
+.logo a{
+    color: white;
+    font-family: 'Inter' sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+.brends-icon{
+    gap: 5px;
+}
+.brends-icon div{
+    width: 30px;
+    height: 30px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    gap: 15px;
+}
+.links a{
+    font-family: "Inter" sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+}
+
+.links button{
+    width: 180px;
+    height: 50px;
+    background: #ffca42;
+    color: #1B3764;
+    font-family: 'Cardo',sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    cursor: pointer;
+    border: none;
+}
+.header-main{
+    gap: 15px;
+    margin-top: 60px;
+}
+.header-main img{
+    width: 70%;
+}
+.left-header h5{
+    font-family: 'Cardo', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color: white;
+    font-weight: normal;
+    gap: 5px;
+}
+.welcome{
+    width: 34px;
+    height: 1px;
+    background: #ffca42;
+    border: none;
+}
+.left-header h1{
+    font-family: 'Cardo' sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: white;
+}
+.left-header p{
+    font-family: 'Inter' sans-serif;
+    color: #B4C7E7;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 40px;
+}
